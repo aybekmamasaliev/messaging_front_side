@@ -7,6 +7,7 @@ const MainPage = () => {
   return (
     <div className="container border mt-5">
       <Navbar />
+      
       <ListofUsers />
     </div>
   );
