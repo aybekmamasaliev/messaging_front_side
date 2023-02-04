@@ -1,13 +1,25 @@
-*{
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
 }
 
-.border{
-    border: 10px solid black;
+.border {
+  border: 10px solid black;
 }
 
-.width_img{
-    max-width: 50%;
+.width_img {
+  width: 200px;
+}
+
+.form_width {
+  width: 350px;
+  margin: 0 auto;
+}
+
+.loading_div {
+  font-size: 40px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
 }
