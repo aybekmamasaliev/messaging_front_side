@@ -1,0 +1,70 @@
+
+.main {
+    /* background: #000; */
+    width: 1200px;
+    margin: 0 auto;
+  }
+  
+  
+  
+  
+  .lastBanner {
+    width: 1200px;
+    height: 304px;
+    /* background: #000; */
+    display: flex;
+    margin-top: 49px;
+    margin-bottom: 88px;
+    justify-content: space-between;
+  }
+  
+  .listOfLastBanner {
+    width: 248px;
+    height: 304px;
+    /* background-color: aqua; */
+    border-radius: 40px;
+    border: 2px solid black;
+    position: relative;
+    text-align: center;
+    padding: 10px;
+  }
+  
+  .pen {
+    position: absolute;
+    left: -5px;
+    top: -10px;
+    background-color: none;
+  }
+  
+  .divOfReviewpen {
+    display: flex;
+    /* background: red; */
+    width: 80px;
+    align-items: center;
+    margin: 0 auto;
+    justify-content: space-around;
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+  
+  .sergey {
+    font-family: "Roboto";
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+    text-align: right;
+    color: #3b7976;
+  }
+  
+  .reviewtext {
+    margin-bottom: 10px;
+  }
+  
+  .date {
+    font-family: "Roboto";
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 16px;
+    color: #3b7976;
+  }
+  

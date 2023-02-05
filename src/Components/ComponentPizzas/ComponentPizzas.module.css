@@ -1,0 +1,240 @@
+.thirsdbanner {
+    width: 1200px;
+    min-height: 1098px;
+    /* background: #000; */
+    margin-top: 10px;
+    position: relative;
+    margin: 0 auto;
+  }
+  
+  .firstdivOfThidrBanner {
+    width: 1200px;
+    min-height: 1012px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    flex-wrap: wrap;
+  }
+  
+  .seconddivOfThidrBanner {
+    width: 1200px;
+    height: 585px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    position: relative;
+  
+  }
+  
+  .listOfPizzas {
+    width: 265px;
+    height: 370px;
+    position: relative;
+    border-radius: 40px;
+    padding-left: 10px;
+    padding-right: 10px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    transition: 0.2s;
+    margin-top: 100px;
+  }
+  
+  .listOfPizzas:hover {
+    transform: scale(1.1);
+    box-shadow: 10px 10px 10px 10px;
+  }
+  
+  .firstPizza {
+    position: absolute;
+    left: 10%;
+    top: -22%;
+    width: 200px;
+    border-radius: 50%;
+  }
+  
+  .mexican {
+    width: 100%;
+    height: 90%;
+    margin-top: 10%;
+    display: flex;
+    padding-top: 50px;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+  
+  .mexican h4 {
+    font-family: "Roboto";
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 23px;
+    color: #254f4c;
+    line-height: 40px;
+  }
+  
+  .mexican p {
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+    align-items: center;
+    text-align: center;
+    color: #000000;
+  }
+  
+  .buttonofPizza {
+    width: 200px;
+    height: 48.3px;
+    background: #254f4c;
+    border-radius: 40px;
+    font-family: "Roboto";
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 147.19%;
+    position: absolute;
+    bottom: 0;
+    left: 12%;
+    text-align: center;
+    text-transform: uppercase;
+    color: #ffffff;
+  }
+
+  .buttonofPizza:active{
+    background-color: chartreuse;
+    color: #000000;
+  }
+  
+  .buttonOfMainPizzas {
+    position: absolute;
+    left: 42.5%;
+    bottom: 0;
+    width: 200px;
+    height: 48.3px;
+    border: 1px solid #ff583e;
+    border-radius: 40px;
+    font-family: "Roboto";
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 147.19%;
+    text-align: center;
+    text-transform: uppercase;
+    color: #ff583e;
+    background-color: white;
+  }
+  
+  .forChoose {
+    position: absolute;
+    right: 0;
+    width: 300px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    top: 10px;
+  }
+  
+  .forChoose p {
+    font-family: "Roboto";
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+    color: #1d3130;
+  }
+  
+  .divOfForChoose {
+    width: 180px;
+    border: 1px solid #c4c4c4;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+  }
+  .minusbutton {
+    display: inline;
+    width: 30px;
+    color: #ff583e;
+    font-size: 20px;
+    border: none;
+    background: none;
+  }
+  
+  .divofcount {
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    width: 100px;
+    margin: 0 auto;
+    align-items: center;
+  }
+  
+  .thirddivofsecondbanner {
+    position: relative;
+    width: 1200px;
+    height: 70px;
+    /* background-color: red; */
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+  }
+  
+  .news2 {
+    font-family: "Roboto";
+    font-weight: 900;
+    font-size: 25px;
+    color: #254f4c;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+  }
+  
+  .divofsecondBannerUl2 {
+    /* background-color: aqua; */
+    height: 64px;
+    display: flex;
+    align-items: flex-end;
+  }
+  
+  .secondBannerUl {
+    font-family: "Roboto";
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    display: flex;
+    list-style: none;
+    color: #1d3130;
+  }
+  
+  .secondBannerUl li {
+    margin-left: 35px;
+    font-family: "Roboto";
+    font-weight: 400;
+    font-size: 16px;
+    color: #1d3130;
+  }
+  
+  .form{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    height: 40px;
+    align-items: center;
+  }
+  
+  .labell{
+    width: 40%;
+  }
+  
+  .select{
+    width:60%;
+    height: 40px;
+  }
+  
+  .option{
+    text-align: center;
+    height: 40px;
+    padding: 5px;
+  }
+  
+  

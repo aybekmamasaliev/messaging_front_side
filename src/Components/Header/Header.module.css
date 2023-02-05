@@ -1,0 +1,90 @@
+.header {
+    margin: 0 auto;
+    color: blue;
+    /* background-color: orange; */
+    height: 75px;
+    display: flex;
+    width: 1200px;
+    position: fixed;
+    left:50%;
+    transform: translate(-50%);
+    background-color: white;
+    z-index: 4;
+  }
+  
+  .left {
+    width: 300px;
+    /* background: yellow; */
+    position: relative;
+  }
+  
+  .right {
+    width: 900px;
+    /* background: green; */
+    position: relative;
+  }
+  
+  .group {
+    position: absolute;
+    width: 32px;
+    height: 31.84px;
+    left: 0;
+    top: 24.15px;
+  }
+  
+  .p {
+    position: absolute;
+    width: 160px;
+    height: 16px;
+    left: 50px;
+    top: 24px;
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 23px;
+    display: flex;
+    align-items: center;
+    text-transform: uppercase;
+    color: #254f4c;
+  }
+  
+  .nameofsite {
+    position: absolute;
+    width: 184px;
+    height: 24px;
+    left: 50px;
+    top: 40px;
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    display: flex;
+    align-items: flex-end;
+    color: #1d3130;
+  }
+  
+  .ul li {
+    list-style: none;
+    color: red;
+    display: inline;
+    margin-left: 70px;
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 19px;
+    color: #1d3130;
+  }
+  
+  .ul{
+      position: absolute;
+      top : 32px
+  }
+  
+  .ul a{
+    text-decoration: none;
+  }
+  
+  

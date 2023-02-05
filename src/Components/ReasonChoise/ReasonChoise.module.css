@@ -1,0 +1,77 @@
+
+.fourthBanner {
+    width: 1200px;
+    height: 400px;
+    /* background-color: aqua; */
+    display: flex;
+    justify-content: space-between;
+    margin-top: 40px;
+    margin:0 auto;
+    padding-top:100px;
+  }
+  
+  .features {
+    width: 280px;
+    height: 350px;
+    /* background-color: #ff583e; */
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0 30px;
+  }
+  
+  .reason {
+    font-family: "Roboto";
+    font-weight: 900;
+    font-size: 25px;
+    line-height: 29px;
+    color: #254f4c;
+    position: absolute;
+    top: 0;
+    left: 0;
+  }
+  
+  .reviews {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    font-family: "Roboto";
+    font-weight: 900;
+    font-size: 25px;
+    line-height: 29px;
+    color: #254f4c;
+  }
+  
+  .gruzovik {
+    width: 100px;
+    margin: 0 auto;
+    display: block;
+  }
+  
+  .logistic {
+    font-family: "Roboto";
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 53px;
+    color: #254f4c;
+  }
+  
+  .bl {
+    text-align: center;
+    font-family: "Roboto";
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+    color: #1d3130;
+  }
+
+  .opisaniye{
+    width:1200px;
+    margin: 0 auto;
+    padding: 20px;
+    position: relative;
+    padding-top: 70px;
+
+  }

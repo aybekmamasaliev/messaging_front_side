@@ -1,0 +1,157 @@
+.container {
+  width: 100%;
+  min-height: 80vh;
+  display: flex;
+  justify-content: center;
+  padding-top: 90px;
+}
+
+.ui {
+  width: 1200px;
+  min-height: 80vh;
+  background-color: blue;
+  display: flex;
+}
+
+.menu {
+  width: 30%;
+  height: 100%;
+  background-color: #363740;
+  /* padding: 20px; */
+  justify-content: center;
+  align-items: center;
+}
+
+.interface {
+  width: 70%;
+  height: 100%;
+  background-color: #f7f8fc;
+  padding: 10px;
+  justify-content: center;
+
+}
+
+.logo {
+  width: 40px;
+  height: 40px;
+  background: #3751ff;
+  border-radius: 50%;
+}
+
+.menu > div {
+  height: 100px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  color: darkgray;
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
+.ul {
+  list-style: none;
+  padding: 10px;
+  width: 100%;
+}
+
+.ul > li {
+  padding: 15px;
+  font-family: "Mulish";
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 20px;
+  color: #f7f8fc;
+  padding-left: 20px;
+}
+
+.ul>li:hover{
+  border-left: 10px solid #DDE2FF;;
+  background-color: #9FA2B4;;
+}
+
+.h2{
+  margin-top: 40px;
+  margin-left: 30px;
+  color:black;
+}
+
+.column{
+  width: 100%;
+  background-color: #363740;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.colonka{
+  min-width: 300px;
+  max-width: 45%;
+  margin: 5px;
+  min-height: 100px;
+  background-color: white;
+  margin-top: 10px;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  cursor: pointer;
+  padding: 5px;
+  text-align: center;
+  position: relative;
+}
+
+.ikx{
+  position: absolute;
+  top:10px;
+  right:10px;
+  border-radius: 50%;
+  width:20px;
+  height: 20px;
+  background-color: red;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color:white;
+  font-weight: 700;
+}
+
+.filter{
+  width: 300px;
+  height: 50px;
+  margin: 5px;
+  font-size: 20px;
+}
+
+.for_calendar{
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.report{
+  width:52%;
+  height: 300px;
+  background: #363740;
+  padding: 20px;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.ekran{
+  width:210px;
+  height: 40px;
+  background: white;
+  padding: 3px;
+  margin-top: 20px;
+}
+
+.buttons{
+  width:45%;
+  font-weight: 900;
+  font-size: 20px;
+  height: auto;
+}

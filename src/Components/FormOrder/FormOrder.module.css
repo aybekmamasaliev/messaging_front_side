@@ -1,0 +1,94 @@
+.railway {
+    max-width: 450px;
+    margin: 0 auto;
+    padding-top: 90px;
+    background: #FAAB1B;
+    font-family: 'Oswald', sans-serif;
+ }
+ .stripes_block {
+    position: relative;
+    padding: 10px 10px 15px;
+    margin-bottom: 20px;
+ }
+
+ .line {
+    width: 60%;
+    margin: 0 auto;
+    height: 15px;
+    border: 2px solid #603624;
+    border-radius: 3px;
+ }
+ .railway h3 {
+    padding: 7px;
+    margin-bottom: 20px;
+    text-align: center;
+    line-height: 1;
+    text-transform: uppercase;
+    color: #FAAB1B;
+    background: lightgoldenrodyellow;
+ }
+ .form_group {
+    margin-bottom: 20px;
+    padding: 10px;
+    /* background: #291810; */
+ }
+ .form_group input, .form_group label, .form_group textarea , select{
+    display: block;
+    width: 100%;
+ }
+
+
+ .form_group input {
+    padding: 5px;
+    line-height: 30px;
+    /* background: #FAAB1B; */
+    border-width: 0;
+    border-radius: 10px;
+    text-align: center;
+ }
+
+ .form_group select {
+   padding: 5px;
+   line-height: 30px;
+   /* background: #FAAB1B; */
+   border-width: 0;
+   border-radius: 10px;
+   text-align: center;
+   height: 40px;
+}
+
+ .form_group label {
+    margin-top: 15px;
+    margin-bottom: 5PX;
+    /* color: #FAAB1B; */
+    text-transform: uppercase;
+    font-size: 17px;
+ }
+
+ .submit_block {
+    padding: 10px 20px 20px;
+    text-align: center;
+    cursor: pointer;
+ }
+
+ .submit_button {
+    display: inline-block;
+    padding: 5px 10px;
+    background: #FAAB1B;
+    color: black;
+ }
+
+ .submit_button input {
+    padding: 20px;
+    border-radius: 20px;
+    /* background: #FAAB1B; */
+
+    border-width: 0;
+    text-transform: uppercase;
+    cursor: pointer;
+ }
+
+ .option{
+   zoom:1.5;
+   padding: 5px;
+ }
